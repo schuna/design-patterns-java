@@ -1,3 +1,5 @@
+package StarBuzz;
+
 public abstract class Beverage {
     String description;
 

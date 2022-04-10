@@ -1,3 +1,5 @@
+package StarBuzz;
+
 public class Whip extends CondimentDecorator {
     Beverage beverage;
 

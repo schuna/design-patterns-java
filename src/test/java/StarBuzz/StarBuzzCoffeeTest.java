@@ -1,3 +1,5 @@
+package StarBuzz;
+
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -16,7 +18,7 @@ class StarBuzzCoffeeTest {
 
     private static Stream<Arguments> beverageOrder() {
         return Stream.of(
-                Arguments.of(new Espresso(), "Espresso $1.99"),
+                Arguments.of(new Espresso(), "StarBuzz.Espresso $1.99"),
                 Arguments.of(new DarkRoast(), "Dark Roast Coffee $0.99"),
                 Arguments.of(new HouseBlend(), "House Blend Coffee $0.89")
         );
@@ -35,9 +37,9 @@ class StarBuzzCoffeeTest {
 
     private static Stream<Arguments> beverageOrderWithCondiments() {
         return Stream.of(
-                Arguments.of(new Espresso(), "Espresso, Mocha, Mocha, Whipping Cream, Soy $2.64"),
-                Arguments.of(new DarkRoast(), "Dark Roast Coffee, Mocha, Mocha, Whipping Cream, Soy $1.64"),
-                Arguments.of(new HouseBlend(), "House Blend Coffee, Mocha, Mocha, Whipping Cream, Soy $1.54")
+                Arguments.of(new Espresso(), "StarBuzz.Espresso, StarBuzz.Mocha, StarBuzz.Mocha, Whipping Cream, StarBuzz.Soy $2.64"),
+                Arguments.of(new DarkRoast(), "Dark Roast Coffee, StarBuzz.Mocha, StarBuzz.Mocha, Whipping Cream, StarBuzz.Soy $1.64"),
+                Arguments.of(new HouseBlend(), "House Blend Coffee, StarBuzz.Mocha, StarBuzz.Mocha, Whipping Cream, StarBuzz.Soy $1.54")
         );
     }
 }

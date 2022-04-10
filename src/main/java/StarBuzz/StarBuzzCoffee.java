@@ -1,3 +1,5 @@
+package StarBuzz;
+
 public class StarBuzzCoffee {
     public static void main(String[] args) {
         Beverage beverageOrder1 = new Espresso();

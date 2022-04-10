@@ -46,7 +46,7 @@
                 <configuration>
                     <excludes>
                         <!-- Exclude class from test coverage -->
-                         <exclude>StarBuzzCoffee.class</exclude>
+                         <exclude>StarBuzz.StarBuzzCoffee.class</exclude>
                     </excludes>
                 </configuration>
                 <executions>

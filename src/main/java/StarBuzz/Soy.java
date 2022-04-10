@@ -1,3 +1,5 @@
+package StarBuzz;
+
 public class Soy extends CondimentDecorator {
     Beverage beverage;
 
@@ -12,6 +14,6 @@ public class Soy extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Soy";
+        return beverage.getDescription() + ", StarBuzz.Soy";
     }
 }
